@@ -1,12 +1,31 @@
-# React + Vite
+# Dog Album - Breed Image Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that displays random dog images and allows breed-specific exploration using the Dog CEO API.
 
-Currently, two official plugins are available:
+## Features
+- 🐶 Display 5 random dog images on initial load
+- 🎯 Breed selection dropdown with sub-breed support
+- 🖼️ Responsive 3-column image grid display
+- 🔄 Refresh button for new random images
+- 🎨 Styled with Tailwind CSS
+- 🌟 Hover effects on image cards
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+1. Select any breed from the dropdown to see 20 images
+2. Sub-breeds appear in "Subbreed Breed" format (e.g., "Afghan Hound")
+3. Click Refresh button to get new random images
+4. Images scale on hover with orange border effect
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React + Vite
+- Dog CEO API (https://dog.ceo/)
+- Tailwind CSS for styling
+- Axios-free implementation (uses native fetch API)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development Setup
+```bash
+npm install
+npm run dev
+```
+
+- Note: Requires Node.js v16+ installed 
