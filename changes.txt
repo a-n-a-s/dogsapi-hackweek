@@ -1,0 +1,3 @@
+   // "build": "vite build",
+    // "dev": "vite",
+    // "preview": "vite preview",
